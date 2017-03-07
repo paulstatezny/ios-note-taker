@@ -13,6 +13,7 @@
 		DA2954041E6E2144007A855B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2954031E6E2144007A855B /* Assets.xcassets */; };
 		DA2954071E6E2144007A855B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2954051E6E2144007A855B /* LaunchScreen.storyboard */; };
 		DA2954121E6E2144007A855B /* NoteTakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2954111E6E2144007A855B /* NoteTakerUITests.swift */; };
+		DAF228821E6E736000A09660 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF228811E6E736000A09660 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DA29540D1E6E2144007A855B /* NoteTakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteTakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2954111E6E2144007A855B /* NoteTakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerUITests.swift; sourceTree = "<group>"; };
 		DA2954131E6E2144007A855B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF228811E6E736000A09660 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DA2953FC1E6E2144007A855B /* AppDelegate.swift */,
 				DA2953FE1E6E2144007A855B /* ViewController.swift */,
+				DAF228811E6E736000A09660 /* DetailViewController.swift */,
 				DA2954001E6E2144007A855B /* Main.storyboard */,
 				DA2954031E6E2144007A855B /* Assets.xcassets */,
 				DA2954051E6E2144007A855B /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAF228821E6E736000A09660 /* DetailViewController.swift in Sources */,
 				DA2953FF1E6E2144007A855B /* ViewController.swift in Sources */,
 				DA2953FD1E6E2144007A855B /* AppDelegate.swift in Sources */,
 			);
@@ -408,6 +412,7 @@
 				DA2954181E6E2144007A855B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA2954191E6E2144007A855B /* Build configuration list for PBXNativeTarget "NoteTakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				DA29541B1E6E2144007A855B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
