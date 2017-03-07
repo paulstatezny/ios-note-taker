@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController,UITableViewDataSource {
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
     @IBOutlet weak var table: UITableView!
     var data:[String] = []
@@ -65,6 +65,10 @@ class ViewController: UIViewController,UITableViewDataSource {
         table.deleteRows(at: [indexPath], with: .fade)
         
         save()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("\(data[indexPath.row])")
     }
     
     func save() {
